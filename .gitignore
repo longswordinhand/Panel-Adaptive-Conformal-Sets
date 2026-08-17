@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large/downloaded datasets
+data/archives/
+data/raw/**
+!data/raw/**/.gitkeep
+data/processed/**
+!data/processed/**/.gitkeep
+data/public/**
+!data/public/**/.gitkeep
+
+# Model checkpoints and large generated model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Pilot generated outputs
+experiments/pilot/logs/**
+!experiments/pilot/logs/.gitkeep
+experiments/pilot/results/**
+!experiments/pilot/results/.gitkeep
+experiments/pilot/figures/**
+!experiments/pilot/figures/.gitkeep
+experiments/pilot/models/**
+experiments/pilot/predictions/**
+
+# LaTeX/build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Journal submission working package and generated binaries
+manuscript/pr_submission/
+manuscript/latex/
+
+# Archives
+*.tar.gz
+*.zip

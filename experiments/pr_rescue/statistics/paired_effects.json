@@ -1,0 +1,317 @@
+[
+  {
+    "dataset": "Dermatology",
+    "q": 0.9,
+    "metric": "success",
+    "n_split_units": 12,
+    "global_mean": 0.9047720797720799,
+    "pacs_mean": 0.903988603988604,
+    "delta_pacs_minus_global": -0.0007834757834758085,
+    "bootstrap95": [
+      -0.004309116809116785,
+      0.0025997150997150724
+    ],
+    "relative_delta_pct": -0.08659371801936826,
+    "wilcoxon_p_sensitivity": 0.353515625
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.9,
+    "metric": "mean_size",
+    "n_split_units": 12,
+    "global_mean": 53.54245014245015,
+    "pacs_mean": 54.640847578347575,
+    "delta_pacs_minus_global": 1.0983974358974358,
+    "bootstrap95": [
+      -0.24127136752136655,
+      2.608206018518515
+    ],
+    "relative_delta_pct": 2.0514515734247127,
+    "wilcoxon_p_sensitivity": 0.38037109375
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.9,
+    "metric": "p90_size",
+    "n_split_units": 12,
+    "global_mean": 98.81666666666668,
+    "pacs_mean": 85.06666666666666,
+    "delta_pacs_minus_global": -13.750000000000009,
+    "bootstrap95": [
+      -17.233333333333345,
+      -9.958229166666683
+    ],
+    "relative_delta_pct": -13.914656771799635,
+    "wilcoxon_p_sensitivity": 0.00048828125
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.8,
+    "metric": "success",
+    "n_split_units": 6,
+    "global_mean": 0.9019943019943021,
+    "pacs_mean": 0.9091168091168091,
+    "delta_pacs_minus_global": 0.007122507122507116,
+    "bootstrap95": [
+      0.0025641025641025736,
+      0.011111111111111108
+    ],
+    "relative_delta_pct": 0.7896399241945665,
+    "wilcoxon_p_sensitivity": 0.0625
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.8,
+    "metric": "mean_size",
+    "n_split_units": 6,
+    "global_mean": 26.74344729344729,
+    "pacs_mean": 30.316809116809114,
+    "delta_pacs_minus_global": 3.573361823361824,
+    "bootstrap95": [
+      2.7183048433048445,
+      4.192592592592593
+    ],
+    "relative_delta_pct": 13.361635035874276,
+    "wilcoxon_p_sensitivity": 0.03125
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.8,
+    "metric": "p90_size",
+    "n_split_units": 6,
+    "global_mean": 47.95000000000001,
+    "pacs_mean": 48.70000000000001,
+    "delta_pacs_minus_global": 0.75,
+    "bootstrap95": [
+      -2.25,
+      2.3833333333333306
+    ],
+    "relative_delta_pct": 1.5641293013555786,
+    "wilcoxon_p_sensitivity": 0.40625
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.7,
+    "metric": "success",
+    "n_split_units": 6,
+    "global_mean": 0.8914529914529915,
+    "pacs_mean": 0.9066951566951568,
+    "delta_pacs_minus_global": 0.015242165242165243,
+    "bootstrap95": [
+      0.01331908831908831,
+      0.01716524216524218
+    ],
+    "relative_delta_pct": 1.7098114413550656,
+    "wilcoxon_p_sensitivity": 0.03125
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.7,
+    "metric": "mean_size",
+    "n_split_units": 6,
+    "global_mean": 16.428846153846152,
+    "pacs_mean": 20.65776353276353,
+    "delta_pacs_minus_global": 4.2289173789173775,
+    "bootstrap95": [
+      3.80042735042735,
+      4.602279202279201
+    ],
+    "relative_delta_pct": 25.740805771240037,
+    "wilcoxon_p_sensitivity": 0.03125
+  },
+  {
+    "dataset": "Dermatology",
+    "q": 0.7,
+    "metric": "p90_size",
+    "n_split_units": 6,
+    "global_mean": 28.775000000000002,
+    "pacs_mean": 34.15,
+    "delta_pacs_minus_global": 5.375,
+    "bootstrap95": [
+      3.700000000000003,
+      6.974999999999999
+    ],
+    "relative_delta_pct": 18.679409209383145,
+    "wilcoxon_p_sensitivity": 0.03125
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.7,
+    "metric": "success",
+    "n_split_units": 30,
+    "global_mean": 0.9104263793248926,
+    "pacs_mean": 0.9322532950091929,
+    "delta_pacs_minus_global": 0.0218269156843001,
+    "bootstrap95": [
+      0.01427966914383781,
+      0.029568863690213193
+    ],
+    "relative_delta_pct": 2.397438846234375,
+    "wilcoxon_p_sensitivity": 4.5743158685492934e-05
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.7,
+    "metric": "mean_size",
+    "n_split_units": 30,
+    "global_mean": 12.538772845205674,
+    "pacs_mean": 12.568791525887823,
+    "delta_pacs_minus_global": 0.03001868068214524,
+    "bootstrap95": [
+      -0.1846122958384401,
+      0.23869531690684548
+    ],
+    "relative_delta_pct": 0.23940684668853524,
+    "wilcoxon_p_sensitivity": 0.854172545006435
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.7,
+    "metric": "p90_size",
+    "n_split_units": 30,
+    "global_mean": 15.2,
+    "pacs_mean": 13.456666666666669,
+    "delta_pacs_minus_global": -1.7433333333333327,
+    "bootstrap95": [
+      -2.096666666666665,
+      -1.4
+    ],
+    "relative_delta_pct": -11.469298245614032,
+    "wilcoxon_p_sensitivity": 4.207310028280956e-06
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.8,
+    "metric": "success",
+    "n_split_units": 30,
+    "global_mean": 0.9133949631376501,
+    "pacs_mean": 0.94314960725624,
+    "delta_pacs_minus_global": 0.0297546441185899,
+    "bootstrap95": [
+      0.01888940438229161,
+      0.0404361518236951
+    ],
+    "relative_delta_pct": 3.257587935056942,
+    "wilcoxon_p_sensitivity": 8.686999312548624e-05
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.8,
+    "metric": "mean_size",
+    "n_split_units": 30,
+    "global_mean": 13.841450125999481,
+    "pacs_mean": 13.878340549630042,
+    "delta_pacs_minus_global": 0.03689042363056263,
+    "bootstrap95": [
+      -0.12810180523974077,
+      0.19846664588177165
+    ],
+    "relative_delta_pct": 0.26652137814135857,
+    "wilcoxon_p_sensitivity": 0.6263462882488966
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.8,
+    "metric": "p90_size",
+    "n_split_units": 30,
+    "global_mean": 16.0,
+    "pacs_mean": 15.033333333333333,
+    "delta_pacs_minus_global": -0.9666666666666667,
+    "bootstrap95": [
+      -1.2,
+      -0.7666666666666667
+    ],
+    "relative_delta_pct": -6.041666666666667,
+    "wilcoxon_p_sensitivity": 5.010331956390443e-06
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.9,
+    "metric": "success",
+    "n_split_units": 30,
+    "global_mean": 0.9111985718506722,
+    "pacs_mean": 0.9626292055079236,
+    "delta_pacs_minus_global": 0.0514306336572513,
+    "bootstrap95": [
+      0.04177376777929714,
+      0.06047809125109426
+    ],
+    "relative_delta_pct": 5.644283830778411,
+    "wilcoxon_p_sensitivity": 2.848903312076321e-06
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.9,
+    "metric": "mean_size",
+    "n_split_units": 30,
+    "global_mean": 14.591812864451185,
+    "pacs_mean": 15.013394031126015,
+    "delta_pacs_minus_global": 0.42158116667482853,
+    "bootstrap95": [
+      0.29858594862825766,
+      0.5464736596684195
+    ],
+    "relative_delta_pct": 2.889162372016787,
+    "wilcoxon_p_sensitivity": 4.7124922275543213e-07
+  },
+  {
+    "dataset": "NIH",
+    "q": 0.9,
+    "metric": "p90_size",
+    "n_split_units": 30,
+    "global_mean": 16.0,
+    "pacs_mean": 15.933333333333334,
+    "delta_pacs_minus_global": -0.06666666666666667,
+    "bootstrap95": [
+      -0.16666666666666666,
+      0.0
+    ],
+    "relative_delta_pct": -0.4166666666666667,
+    "wilcoxon_p_sensitivity": 0.15729920705028502
+  },
+  {
+    "dataset": "CIFAR-10H",
+    "q": 0.7,
+    "metric": "success",
+    "n_split_units": 20,
+    "global_mean": 0.8990499999999999,
+    "pacs_mean": 0.9708833333333334,
+    "delta_pacs_minus_global": 0.07183333333333339,
+    "bootstrap95": [
+      0.06893333333333342,
+      0.07486666666666672
+    ],
+    "relative_delta_pct": 7.989915280944708,
+    "wilcoxon_p_sensitivity": 1.9073486328125e-06
+  },
+  {
+    "dataset": "CIFAR-10H",
+    "q": 0.7,
+    "metric": "mean_size",
+    "n_split_units": 20,
+    "global_mean": 1.0881999999999998,
+    "pacs_mean": 1.7784833333333334,
+    "delta_pacs_minus_global": 0.6902833333333331,
+    "bootstrap95": [
+      0.6577658333333332,
+      0.72213375
+    ],
+    "relative_delta_pct": 63.4334987441034,
+    "wilcoxon_p_sensitivity": 8.844915021211901e-05
+  },
+  {
+    "dataset": "CIFAR-10H",
+    "q": 0.7,
+    "metric": "p90_size",
+    "n_split_units": 20,
+    "global_mean": 1.15,
+    "pacs_mean": 3.05,
+    "delta_pacs_minus_global": 1.9,
+    "bootstrap95": [
+      1.7,
+      2.1
+    ],
+    "relative_delta_pct": 165.2173913043478,
+    "wilcoxon_p_sensitivity": 2.9580022293664515e-05
+  }
+]

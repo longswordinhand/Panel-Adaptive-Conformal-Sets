@@ -1,0 +1,144 @@
+{
+  "seed": 20260815,
+  "n_folds": 5,
+  "unit": "patient/case",
+  "n_cases": 55,
+  "roles_per_fold": {
+    "train": 33,
+    "calibration": 11,
+    "test": 11
+  },
+  "stratification_variable": "Task02 disagreement = 1 - minimum pairwise expert Dice",
+  "folds": {
+    "0": {
+      "train": {
+        "n": 33,
+        "mean_disagreement": 0.145787322113617,
+        "median_disagreement": 0.13042661153918433,
+        "max_disagreement": 0.3893159609120521,
+        "contains_case07": false,
+        "contains_case50": false
+      },
+      "calibration": {
+        "n": 11,
+        "mean_disagreement": 0.21126111815961543,
+        "median_disagreement": 0.11971364976237742,
+        "max_disagreement": 1.0,
+        "contains_case07": true,
+        "contains_case50": false
+      },
+      "test": {
+        "n": 11,
+        "mean_disagreement": 0.21283269784218098,
+        "median_disagreement": 0.13618714347346728,
+        "max_disagreement": 1.0,
+        "contains_case07": false,
+        "contains_case50": true
+      }
+    },
+    "1": {
+      "train": {
+        "n": 33,
+        "mean_disagreement": 0.16963649642461118,
+        "median_disagreement": 0.13042661153918433,
+        "max_disagreement": 1.0,
+        "contains_case07": false,
+        "contains_case50": true
+      },
+      "calibration": {
+        "n": 11,
+        "mean_disagreement": 0.1429891512240685,
+        "median_disagreement": 0.1276910478907468,
+        "max_disagreement": 0.25884428487418365,
+        "contains_case07": false,
+        "contains_case50": false
+      },
+      "test": {
+        "n": 11,
+        "mean_disagreement": 0.2095571418447454,
+        "median_disagreement": 0.13384109073812878,
+        "max_disagreement": 1.0,
+        "contains_case07": true,
+        "contains_case50": false
+      }
+    },
+    "2": {
+      "train": {
+        "n": 33,
+        "mean_disagreement": 0.18777250149078178,
+        "median_disagreement": 0.1276910478907468,
+        "max_disagreement": 1.0,
+        "contains_case07": true,
+        "contains_case50": true
+      },
+      "calibration": {
+        "n": 11,
+        "mean_disagreement": 0.1428260628102449,
+        "median_disagreement": 0.13618714347346728,
+        "max_disagreement": 0.2565421404078686,
+        "contains_case07": false,
+        "contains_case50": false
+      },
+      "test": {
+        "n": 11,
+        "mean_disagreement": 0.15531221506005705,
+        "median_disagreement": 0.13042661153918433,
+        "max_disagreement": 0.3893159609120521,
+        "contains_case07": false,
+        "contains_case50": false
+      }
+    },
+    "3": {
+      "train": {
+        "n": 33,
+        "mean_disagreement": 0.1696460001457757,
+        "median_disagreement": 0.13042661153918433,
+        "max_disagreement": 1.0,
+        "contains_case07": true,
+        "contains_case50": false
+      },
+      "calibration": {
+        "n": 11,
+        "mean_disagreement": 0.21092543841904912,
+        "median_disagreement": 0.13384109073812878,
+        "max_disagreement": 1.0,
+        "contains_case07": false,
+        "contains_case50": true
+      },
+      "test": {
+        "n": 11,
+        "mean_disagreement": 0.14159234348627123,
+        "median_disagreement": 0.11971364976237742,
+        "max_disagreement": 0.2565421404078686,
+        "contains_case07": false,
+        "contains_case50": false
+      }
+    },
+    "4": {
+      "train": {
+        "n": 33,
+        "mean_disagreement": 0.16920421511183253,
+        "median_disagreement": 0.13384109073812878,
+        "max_disagreement": 1.0,
+        "contains_case07": false,
+        "contains_case50": true
+      },
+      "calibration": {
+        "n": 11,
+        "mean_disagreement": 0.21168175289775712,
+        "median_disagreement": 0.13042661153918433,
+        "max_disagreement": 1.0,
+        "contains_case07": true,
+        "contains_case50": false
+      },
+      "test": {
+        "n": 11,
+        "mean_disagreement": 0.14216138410939272,
+        "median_disagreement": 0.1276910478907468,
+        "max_disagreement": 0.25884428487418365,
+        "contains_case07": false,
+        "contains_case50": false
+      }
+    }
+  }
+}

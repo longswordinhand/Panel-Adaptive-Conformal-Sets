@@ -1,0 +1,123 @@
+{
+  "status": "pr_pacs_frozen_2026-08-17",
+  "scope": "Pattern Recognition PACS manuscript only; obsolete TPAMI latent-tail facts archived separately",
+  "sources": {
+    "dermatology_q09_ablation_raw": {
+      "path": "experiments/pr_rescue/results/dermatology_pacs_ablation_q0p9_raw.csv",
+      "sha256": "a106108f04c499be0e4a0930cf8a585b609d7a5d02c7af41285424036d58a504"
+    },
+    "dermatology_q07_raw": {
+      "path": "experiments/pr_rescue/results/dermatology_pacs_global_residual_q0p7_raw.csv",
+      "sha256": "3a133312f9e5290e151dc05f0e23c58d405b5382ef22ed24694fd66b9f3ff609"
+    },
+    "dermatology_q08_raw": {
+      "path": "experiments/pr_rescue/results/dermatology_pacs_global_residual_q0p8_raw.csv",
+      "sha256": "a5e02134ea6ec2ce9c98160e9a1381d9eb84854cc3bbe1faa22e8b01fd69401f"
+    },
+    "nih_global_residual_raw": {
+      "path": "experiments/pr_rescue/results/nih_pacs_global_residual_validation_raw.csv",
+      "sha256": "eb7b4e413043b1762d688ace824c439b46c8187b6db4e394b89b30869b43b978"
+    },
+    "nih_global_q07_baseline_raw": {
+      "path": "experiments/pr_rescue/results/nih_multiclass_pacs_mondrian_ridge_fixed_q0p7_raw.csv",
+      "sha256": "3bed1a958c9c3deb205269d19d7c3f624f6c10f544d3a5068a24f89000e25d55"
+    },
+    "nih_global_q08_baseline_raw": {
+      "path": "experiments/pr_rescue/results/nih_multiclass_pacs_mondrian_ridge_fixed_q0p8_raw.csv",
+      "sha256": "a3cf16d0eb8af8e439f9c26f2bd3ddcd29f307eff86326d503e0019183d3ceae"
+    },
+    "nih_global_q09_baseline_raw": {
+      "path": "experiments/pr_rescue/results/nih_multiclass_pacs_mondrian_ridge_fixed_q0p9_raw.csv",
+      "sha256": "4f4856f9b93d28a2320d0f6342d92d3896224dd7ed6669e8159c06fc016f48ff"
+    },
+    "cifar_global_residual_raw": {
+      "path": "experiments/pr_rescue/results/cifar10h_pacs_global_residual_validation_raw.csv",
+      "sha256": "80247b71d5368ef59125ea712723490f2e06f9c02ba637ab775eeaf12459961a"
+    },
+    "cifar_global_baseline_raw": {
+      "path": "experiments/pr_rescue/results/cifar10h_pacs_fixed_q0p7_raw.csv",
+      "sha256": "e8617d660cd7a724582b4501c15029ca687221f181fcfa937308d1b62f50aa1a"
+    },
+    "paired_effects": {
+      "path": "experiments/pr_rescue/statistics/paired_effects_main_pacs.csv",
+      "sha256": "82052ab560fd795d479b423c503dee0e1bddd021ece6162a61554ceaa76066ca"
+    }
+  },
+  "aggregation_scripts": {
+    "dermatology_ablation": "scripts/run_dermatology_pacs_ablation.py",
+    "dermatology_q_sensitivity": "scripts/run_dermatology_pacs_global_residual_q_sensitivity.py",
+    "nih_cifar_validation": "scripts/run_pacs_global_residual_validation.py",
+    "paired_statistics": "scripts/analyze_pr_main_pacs_statistics.py",
+    "figures": "scripts/make_pr_pacs_figures.py"
+  },
+  "key_facts": {
+    "dermatology": {
+      "n_cases": 1947,
+      "n_classes": 419,
+      "n_released_model_matrices": 4,
+      "q09_model_by_split_runs": 48,
+      "q09_split_units_for_paired_analysis": 12,
+      "q09_global_success": 0.9048,
+      "q09_pacs_success": 0.9025,
+      "q09_global_mean_size": 53.54,
+      "q09_pacs_mean_size": 52.34,
+      "q09_global_p90": 98.82,
+      "q09_pacs_p90": 80.28,
+      "q09_success_delta_percentage_points": -0.23,
+      "q09_success_delta_bootstrap95_pp": [-0.63, 0.17],
+      "q09_mean_size_delta": -1.20,
+      "q09_mean_size_delta_bootstrap95": [-2.53, 0.25],
+      "q09_p90_delta": -18.54,
+      "q09_p90_delta_bootstrap95": [-21.56, -15.38],
+      "q09_relative_p90_delta_pct": -18.8,
+      "q09_stratified_ablation_success": 0.9040,
+      "q09_stratified_ablation_mean_size": 54.64,
+      "q09_stratified_ablation_p90": 85.07,
+      "q08_global_success": 0.9020,
+      "q08_pacs_success": 0.9080,
+      "q08_global_p90": 47.95,
+      "q08_pacs_p90": 46.61,
+      "q07_global_success": 0.8915,
+      "q07_pacs_success": 0.9026,
+      "q07_global_p90": 28.78,
+      "q07_pacs_p90": 29.97
+    },
+    "nih": {
+      "n_images": 810,
+      "readers_per_image": 5,
+      "n_classes_after_sensitivity_conversion": 16,
+      "split_units": 30,
+      "q07_global_success": 0.9104,
+      "q07_pacs_success": 0.9298,
+      "q07_global_mean_size": 12.54,
+      "q07_pacs_mean_size": 12.53,
+      "q07_global_p90": 15.20,
+      "q07_pacs_p90": 13.50,
+      "q08_global_success": 0.9134,
+      "q08_pacs_success": 0.9394,
+      "q08_global_mean_size": 13.84,
+      "q08_pacs_mean_size": 13.75,
+      "q08_global_p90": 16.00,
+      "q08_pacs_p90": 15.10,
+      "q09_global_success": 0.9112,
+      "q09_pacs_success": 0.9601,
+      "q09_global_p90": 16.00,
+      "q09_pacs_p90": 15.97
+    },
+    "cifar10h": {
+      "n_cases": 10000,
+      "q07_split_units": 20,
+      "q07_global_success": 0.8990,
+      "q07_pacs_success": 0.9705,
+      "q07_global_mean_size": 1.088,
+      "q07_pacs_mean_size": 1.779,
+      "q07_global_p90": 1.15,
+      "q07_pacs_p90": 3.10
+    }
+  },
+  "evidence_class": {
+    "dermatology": "real_world_public_benchmark_predictions_and_expert_annotations",
+    "nih": "real_world_public_multi_reader_sensitivity_construction",
+    "cifar10h": "real_world_public_human_label_distribution_control"
+  }
+}

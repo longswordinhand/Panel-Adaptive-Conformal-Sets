@@ -1,0 +1,70 @@
+{
+  "status": "frozen_2026-08-15",
+  "sources": {
+    "nih_contraction": {
+      "path": "experiments/pilot/results/tail_identification/nih_m_contraction_summary_beta05.csv",
+      "sha256": "10581cbfcba0a8bf9f09b59d4b26f9dc5c02b31d8e2e8fab96dc84567455e5d0"
+    },
+    "real_honest_ci": {
+      "path": "experiments/pilot/results/tail_honest_ci/real_data_honest_ci_sensitivity.csv",
+      "sha256": "0176cceebc9791a30e9b1e28548dbe1c327b3a5595eca2decd8f66789d357335"
+    },
+    "synthetic_population": {
+      "path": "experiments/pilot/results/tail_identification/synthetic_population_bounds.csv",
+      "sha256": "3af7b6b30be3ad5719d645833dfb8e358eb3a007619958e18d8ca174c90fac2a"
+    },
+    "ci_mc100": {
+      "path": "experiments/pilot/results/tail_honest_ci/core_mc_100_summary.csv",
+      "sha256": "2c782b4f1faf7319ee39e133a42755ef3d030cab39449208479d2c896ef690e2"
+    },
+    "sequential_sim": {
+      "path": "experiments/pilot/results/thinned_sequential_simulation.csv",
+      "sha256": "a3c1ba330a8a4e88e19bf069fe4b97a4e811bfb8fce6496529a0c80ada7868de"
+    },
+    "nih_reader_heterogeneity": {
+      "path": "experiments/pilot/results/tpami_robustness/nih_reader_heterogeneity_tests.csv",
+      "sha256": "f244acf2a868720306f6dbfbd3e8488e21964a76a20fb950d4ab39bfbd5af29d"
+    },
+    "nih_reader_rates": {
+      "path": "experiments/pilot/results/tpami_robustness/nih_reader_positive_rates.csv",
+      "sha256": "a248419f9034ae8d31f279003110ff68c503e450820dd3d8a8fb777e4721f377"
+    },
+    "nih_subset_summary": {
+      "path": "experiments/pilot/results/tpami_robustness/nih_subset_width_summary_beta05.csv",
+      "sha256": "bc1d2a3dc1540ffc825ebfc23650f62de68f51565d71ed7edd540010b3d22154"
+    },
+    "grid_sensitivity": {
+      "path": "experiments/pilot/results/tpami_robustness/grid_sensitivity_beta05.csv",
+      "sha256": "cc7418236bc348edca6670d5f51628490020315fa2439e170ef31caed77a90b5"
+    },
+    "sequential_slopes": {
+      "path": "experiments/pilot/results/tpami_robustness/sequential_budget_loglog_slopes.csv",
+      "sha256": "b46871a5ab8ae5c6ddc4aaef805fc89deea67a265deab90c59f27a6803450745"
+    }
+  },
+  "key_facts": {
+    "nih_n_images": 810,
+    "nih_readers_per_image": 5,
+    "vindr_n_images": 15000,
+    "vindr_readers_per_image": 3,
+    "nih_pleural_width_m1": 0.2364249973778543,
+    "nih_pleural_width_m5": 0.022535399223040344,
+    "nih_cardiomegaly_width_m1": 0.18361189775482634,
+    "nih_cardiomegaly_width_m5": 0.05074127962394401,
+    "nih_pleural_honest95_unrestricted": [
+      0.0,
+      0.134976673573188
+    ],
+    "synthetic_beta2020_width_m20": 0.4044772387930514,
+    "synthetic_asymmetric_width_m20": 0.033001134638900476,
+    "reader_consolidation_rate_range": [
+      0.04691358024691358,
+      0.47530864197530864
+    ],
+    "reader_pleural_rate_range": [
+      0.02962962962962963,
+      0.2716049382716049
+    ],
+    "minimax_exponent": "max(2,2/gamma) up to logarithmic factors"
+  }
+}

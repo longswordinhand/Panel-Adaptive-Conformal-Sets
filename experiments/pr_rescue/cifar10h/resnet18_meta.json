@@ -1,0 +1,11 @@
+{
+  "seed": 20260816,
+  "epochs": 24,
+  "device": "cuda",
+  "best_test_accuracy": 0.8869,
+  "shape": [
+    10000,
+    10
+  ],
+  "finite": true
+}
